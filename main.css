@@ -1,0 +1,70 @@
+.container {
+  /*
+    If you have a block-level element of a certain width, margin: 0 auto;
+    will how you center it inside its parent container.
+
+    See: http://bluerobot.com/web/css/center1.html
+
+    Don't change the container width.
+  */
+  margin: 0 auto auto 19%;
+  width: 75%;
+}
+
+.submit_button{
+  margin-left: 4%;
+}
+
+header h1{
+  display: inline-block;
+  font-weight: bolder;
+}
+
+nav{
+  background-color: #D4D3D4;
+  position: fixed;
+  height: 100%;
+  width: 15%;
+  left: 0;
+  top: 0;
+  /*display: inline-block;*/
+}
+
+nav ul{
+  padding-left: 0;
+}
+
+nav ul li{
+  padding-left: 8%;
+  line-height: 2.2em;
+  border-bottom: 2px black solid;
+}
+
+nav ul li a{
+  font-weight: bolder;
+  text-decoration: none;
+  color:  black;
+}
+
+#registration{
+  border: gray 1px dotted;
+  padding: 0.5%;
+  margin-top: -4em;
+  float: right;
+  background-color: #D4D3D4;
+}
+
+#tour{
+  float: left;
+  width: 50%;
+}
+
+h2{
+  font-size: 1.1em;
+  margin: 0;
+  padding: 0;
+}
+
+h4:before{
+  clear: both;
+}
